@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment9_IceAndFire_ConsumingAPI", "Assessment9_IceAndFire_ConsumingAPI\Assessment9_IceAndFire_ConsumingAPI.csproj", "{23B186A2-EC16-4786-BD4D-915EE155BD81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B186A2-EC16-4786-BD4D-915EE155BD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B186A2-EC16-4786-BD4D-915EE155BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B186A2-EC16-4786-BD4D-915EE155BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B186A2-EC16-4786-BD4D-915EE155BD81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47857DDB-3769-4FFC-8319-C6068F63BA7F}
+	EndGlobalSection
+EndGlobal

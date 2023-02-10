@@ -1,0 +1,31 @@
+﻿@model List<Character>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ice and Fire Characters</h1>
+   </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Played By</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (Character actor in Model)
+        {
+            <tr>
+                <td>@actor.name</td>
+                <td>@actor.gender</td>
+                <td>@actor.playedBy</td>
+                <td>
+            </tr>
+        }
+    </tbody>
+</table>

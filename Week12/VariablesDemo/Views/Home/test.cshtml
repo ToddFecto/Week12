@@ -1,0 +1,17 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "test";
+}
+
+<h1>test</h1>
+This list has @Model.Count items in it!
+
+@foreach (string str in Model)
+{
+    <div>@str</div>
+}
+
+@foreach (string str in Model)
+{
+    <div>@str.Length</div>
+}
